@@ -12,6 +12,8 @@
 		04C5818720867E9300CADBE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5818520867E9300CADBE8 /* Main.storyboard */; };
 		04C5818920867E9300CADBE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C5818820867E9300CADBE8 /* Assets.xcassets */; };
 		04C5818C20867E9300CADBE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5818A20867E9300CADBE8 /* LaunchScreen.storyboard */; };
+		04C581962086804200CADBE8 /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C581942086804200CADBE8 /* penguin.png */; };
+		04C581972086804200CADBE8 /* penguin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C581952086804200CADBE8 /* penguin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		04C5818820867E9300CADBE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C5818B20867E9300CADBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C5818D20867E9300CADBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C581942086804200CADBE8 /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin.png; sourceTree = "<group>"; };
+		04C581952086804200CADBE8 /* penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		04C5818020867E9300CADBE8 /* Project15 */ = {
 			isa = PBXGroup;
 			children = (
+				04C581932086804200CADBE8 /* Content */,
 				04C5818120867E9300CADBE8 /* AppDelegate.swift */,
 				04C5818320867E9300CADBE8 /* ViewController.swift */,
 				04C5818520867E9300CADBE8 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				04C5818D20867E9300CADBE8 /* Info.plist */,
 			);
 			path = Project15;
+			sourceTree = "<group>";
+		};
+		04C581932086804200CADBE8 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				04C581942086804200CADBE8 /* penguin.png */,
+				04C581952086804200CADBE8 /* penguin@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C581962086804200CADBE8 /* penguin.png in Resources */,
 				04C5818C20867E9300CADBE8 /* LaunchScreen.storyboard in Resources */,
 				04C5818920867E9300CADBE8 /* Assets.xcassets in Resources */,
 				04C5818720867E9300CADBE8 /* Main.storyboard in Resources */,
+				04C581972086804200CADBE8 /* penguin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SabrinaFletcher.Project15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -296,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SabrinaFletcher.Project15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
